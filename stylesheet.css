@@ -1,0 +1,72 @@
+/*body {*/
+/*    background-color: black;*/
+/*}*/
+
+:root {
+    --border-height: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#canvas{
+    position: absolute;
+    float: left;
+}
+
+.border {
+    position: fixed;
+    /*width: 10%;*/
+    /*height: 10%;*/
+
+}
+
+#topLeft {
+    width: 13.3%;
+    top: 0px;
+    left: 0px;
+}
+
+#top {
+    width: 100%;
+    top: 0px;
+    left: 40px;
+
+    /*background-size: cover;*/
+}
+
+#bottom {
+    width: 100%;
+    bottom: 0px;
+
+}
+
+#bottomLeft{
+    width: 13.9%;
+    bottom: 0px;
+    left: 0px;
+}
+
+#left {
+    height: 100%;
+    width: 8.5vw;
+
+    left: 0px;
+}
+
+#right {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    right: 0px;
+}
+
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
