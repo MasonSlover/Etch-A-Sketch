@@ -10,7 +10,19 @@
     margin: 0;
     padding: 0;
 
+
 }
+
+/*@media (max-width: 600px) {*/
+/*    #grain {*/
+/*        transform: rotate(90deg);*/
+/*        !*background-size: cover;*!*/
+/*        !*float: top;*!*/
+/*        !*width: 100%;*!*/
+/*        !*height: 100%;*!*/
+/*    }*/
+
+/*}*/
 
 #grain {
     position: absolute;
@@ -79,12 +91,14 @@
     position: absolute;
     height: 100%;
     width: 8.5vw;
-
     right: 0px;
 }
 
 
+
+
 html, body {
+    height: 100%;
     margin: 0 !important;
     padding: 0 !important;
 }
